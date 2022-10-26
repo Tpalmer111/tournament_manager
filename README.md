@@ -1,6 +1,15 @@
 # tournament_manager
+
+### Deployed app
+
+ADD LINK TO APP
+
 ## app description
 This is an app for managing a poker tournament. The user will be anyone who hosts a poker game, from small "kitchen table" home games to large multi-table tournaments. The app will display all the information a player needs to see during a game, while the host will be able to create tournament templates and adjust all the settings for each game type they want to play.
+
+## Installation instructions
+
+ADD INSTALLATION INSTRUCTIONS
 
 ## tech stack
 
@@ -24,30 +33,90 @@ When a player has logged in and provided valid invite information they are direc
 
 ## Daily sprints
 
-* __Tuesday:__
+* __Tuesday Oct-25-2022:__
     * set up the repo to be a react app
     * connect the user auth login and registration
     * research flutter
     * build the front end routes
+
     __notes:__
+
      * Tuesday was much less productive than expected. Research into Flutter revealed that it uses the Dart language. After a quick review I have decided this will take too much time to accomplish before the deadline on Monday. Brief research into Qi QML looks promising at first, but doesn't pan out due to use of the QML language and overall obscurity. Oddly, I decide to follow the original plan and take on the task of learning React Native in the hopes that my "native" language javaScript will help me overcome the challenges and roadblocks. Halfway through a tutorial for a react native todo list project, I can't get past a bug giving me a red screen on my phone and a white screen on my browser. I know it's one of hte dependency modules, but at 11:30 pm I call it a day.
-* __Wednesday:__
-    * connect the backend
-    * set up the backend routes
-    * set up and manage the database
-     * _EDIT_ * the planning stage and learning stage are going to continue through most of the day. 
+
+* __Wednesday Oct-26-2022:__
+
+    * Study, and practice using React Native
+    * complete to-do tutorial
+
+     * _EDIT_ * the planning stage and learning stage are going to continue through most of the day. Refactored the daily outline to reflect a more achievable daily sprint. 
+
     __notes:__
+
      * Lucas helped me debug and find the dependency that wasn't installed correctly and we were able to render "Welcome Home" through the Expo app on my phone.
-* __Thursday:__
+
+* __Thursday Oct-27-2022:__
+
+    * connect the repo to the virtual iOS with "Hello World"
     * build timer functionality
     * set-up the default game format
-* __Friday:__
+
+* __Friday Oct-28-2022:__
+
+    * finish default format
+    * test default game for bugs and edge cases
     * create the new game form
-* __Saturday:__
-    * finalize functionality for basic MVP
-    * css styling
-* __Sunday:__
-    * css styling
+
+* __Saturday Oct-29-2022:__
+
+    * finish game form
+    * render new game form as home page
+    * connect the new form/home page to the Tourney page
+
+* __Sunday Oct-30-2022:__
+
+    * styling
+    * plan and practice presentation
+
+* __After Cohort:__
+
+    * After the cohort is complete I plan to continue until I achieve every stage of stretch goals. Beyond that there is a lot more functionality that could be added. I plan to explore this project until I am satisfied.
+
+## MVP Goals
+
+* Learn the basics enough to begin a working knowledge of React Native.
+* Complete tutorial on building a to-do list with React Native.
+* Achieve a deployed app with a minimum "Hello World" statement rendered.
+
+## 1st Stage Stretch Goal
+
+* Build basic tournament format and functionality with default game settings:
+    * 15 minute levels (blind_duration)
+    * 50/100 blinds 2x (blind_start_value, blind_rate)
+    * 15 minute break every hour (break_duration)
+    * no player limit (player_limit)
+    * no blind increase (blind_rate_increase, blind_increase_amount)
+* Render this screen as the home page.
+
+## 2nd Stage Stretch Goal
+
+* Render a form as the new home page.
+    * The form will allow the user to adjust the default settings.
+    * Submit button that takes the user to the home page.
+
+## 3rd Stage Stretch Goal
+
+* Let a "Host" register for an account.
+    * Save tourneys to profile.
+
+## 4th Stage Stretch Goal
+
+* Add the ability to display the tourney on multiple devices at the same time.
+    * This must be an accurate game time for the blind levels on all subsequent screens.
+
+## 5th Stage Stretch Goal
+
+* Add player accounts.
+    * Allow players to sign in with an invite code to view the game details on their own phones.
 
 ## Pages
 
@@ -69,8 +138,8 @@ When a player has logged in and provided valid invite information they are direc
 | GET    | /players | show the player login page |
 | POST   | /players/login | login the player |
 | GET    | /hosts/register | show the host registration page |
-| GET    | /tournaments/home  | show the tournament home page |
-| GET    | /tournaments/create  | show the create tourney page |
+| GET    | /tourneys/home  | show the tournament home page |
+| GET    | /tourneys/create  | show the create tourney page |
 | POST   | /tourneys/:id | create a new tournament |
 | PUT    | /tourneys/:id    | edit an existing tournament |
 | DELETE | /tourneys/:id  | delete an existing tournament |
@@ -86,3 +155,11 @@ When a player has logged in and provided valid invite information they are direc
 
 [miro-board] (https://miro.com/app/board/uXjVPJi2k4A=/?share_link_id=469659624669)
 ![](https://file%2B.vscode-resource.vscode-cdn.net/Users/timpalmer/Pictures/Photos%20Library.photoslibrary/originals/F/FB8C3B27-433F-4495-A47C-E30E5E65895C.jpeg?version%3D1666754509018)
+
+## Approach taken
+
+ADD APPROACH TAKEN
+
+## Post project reflection
+
+ADD POST PROJECT REFLECTION
