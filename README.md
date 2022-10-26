@@ -74,7 +74,7 @@ When a player has logged in and provided valid invite information they are direc
 | POST   | /tourneys/:id | create a new tournament |
 | PUT    | /tourneys/:id    | edit an existing tournament |
 | DELETE | /tourneys/:id  | delete an existing tournament |
-| GET    | /tourney | show tournament page |
+| GET    | /tourneys/:id | show tournament page |
 
 ## ERD chart
 
