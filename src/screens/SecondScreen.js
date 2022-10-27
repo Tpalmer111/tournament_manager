@@ -32,7 +32,11 @@ export default function ({ navigation }) {
         }}
       >
         {/* This text using ubuntu font */}
-        <Text fontWeight="bold">This is the second screen</Text>
+        <Text fontWeight="bold">Tournament Page</Text>
+        <Text fontWeight="bold">Level 1</Text>
+        <Text fontWeight="bold">15:00</Text>
+        <Text fontWeight="bold">Blinds: 50/100</Text>
+        <Text>Break: 60:00</Text>
       </View>
     </Layout>
   );
