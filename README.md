@@ -53,6 +53,7 @@ When a player has logged in and provided valid invite information they are direc
     __notes:__
 
      * Lucas helped me debug and find the dependency that wasn't installed correctly and we were able to render "Welcome Home" through the Expo app on my phone.
+     * I worked through the bugs on the to-do tutorial for the rest of class time. After which I took the night off a went and played a poker game. And won. While at the table I read the entire react native documentation and watched the beginning of a YouTube tutorial that seems promising.
 
 * __Thursday Oct-27-2022:__
 
