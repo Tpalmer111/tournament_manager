@@ -61,6 +61,10 @@ When a player has logged in and provided valid invite information they are direc
     * build timer functionality
     * set-up the default game format
 
+    __notes:__
+
+    * Good start to the day, its about an hour from lunch and I have achieved my MVP (save for deployment). I found a template that had numerous different frames to choose from. Out of caution I chose the simplest and it turns out it has a great foundation for the MVP of my project, allowing me time to focus on the more challenging functionality. I will take a break and come back to study the Reanimation library and look into finding a tutorial to speed up the process.
+
 * __Friday Oct-28-2022:__
 
     * finish default format
