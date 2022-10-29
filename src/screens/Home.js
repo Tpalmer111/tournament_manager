@@ -35,7 +35,7 @@ export default function ({ navigation }) {
             <Button
               text="Go to the tournament"
               onPress={() => {
-                navigation.navigate("SecondScreen");
+                navigation.navigate("TimerScreen");
               }}
               style={{
                 marginTop: 10,

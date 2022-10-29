@@ -8,7 +8,7 @@ import TabBarIcon from "../components/utils/TabBarIcon";
 import TabBarText from "../components/utils/TabBarText";
 
 import Home from "../screens/Home";
-import SecondScreen from "../screens/SecondScreen";
+import TimerScreen from "../screens/TimerScreen";
 import About from "../screens/About";
 import Profile from "../screens/Profile";
 
@@ -21,7 +21,7 @@ const Main = () => {
       }}
     >
       <MainStack.Screen name="MainTabs" component={MainTabs} />
-      <MainStack.Screen name="SecondScreen" component={SecondScreen} />
+      <MainStack.Screen name="TimerScreen" component={TimerScreen} />
     </MainStack.Navigator>
   );
 };

@@ -18,11 +18,18 @@ The foundation of this app will be built in javaScript and React. I plan to rese
 After much consideration, I have decided to divert course, and attempt to build this app with React Native. Any further tech stack developments will be recorded as they arise.
 
 ## user flow
+
 The user will be both the host and the player of a poker game. The flow will be different depending on the account type. Any user not logged in will be directed to the home page, which displays two buttons: Host, and Player.
-__The Host__: By clicking the "Host" button, a login page will load, with an input for a username and password, as well as a "Register" button that takes the user to the registration page. By completing either the login or the registration form, the user is taken to their "Tournament Home" page.
+
+__The Host__:
+
+By clicking the "Host" button, a login page will load, with an input for a username and password, as well as a "Register" button that takes the user to the registration page. By completing either the login or the registration form, the user is taken to their "Tournament Home" page.
 The Tournament Home page is where the host will see the Tournaments they have saved as well as a "New Tournament" button. Clicking the "New Tournament" button the user will be taken to the page that renders the new tournament form. This is where the user will create a new tournament to save to their profile. Once a tournament is saved the user is redirected to the Tournament home page. If the host selects one of the saved Tournaments they will be taken to the "Tourney" page.
 On the "Tourney" page the Host will see all the tournament's information, the clock will be set to the default time, and any registered players will be listed. There will be an invite link the Host can copy and send to players they want to invite. Only the Host will able to see and click the start, pause, and restart buttons. Next to each players name, the host will see a button next to each player to eliminate them from the tournament when they have run out of chips. Lastly, the host will see a button allowing them to register for the tournament.
-__The Player__: By clicking the "Player" button, a login page will load, with an input for a username and password, as well as a "Register Player" button that takes the player to a page that renders a player registration form. When the player logs in or registers an account they are directed to a join Tournament page, that shows an input field for them to enter the invite information to get them into the host's game.
+
+__The Player__:
+
+By clicking the "Player" button, a login page will load, with an input for a username and password, as well as a "Register Player" button that takes the player to a page that renders a player registration form. When the player logs in or registers an account they are directed to a join Tournament page, that shows an input field for them to enter the invite information to get them into the host's game.
 When a player has logged in and provided valid invite information they are directed to the player side of the "Tourney" page. On the "Tourney" page the user can see most of the same information the host can see but none of the ability to edit or change anything. When a player has been eliminated by the host, they will see a message telling them they have been eliminated and when the game is over it will display the Winner until the page is closed or reloaded.
 
 ## User stories
@@ -65,11 +72,17 @@ When a player has logged in and provided valid invite information they are direc
 
     * Good start to the day, its about an hour from lunch and I have achieved my MVP (save for deployment). I found a template that had numerous different frames to choose from. Out of caution I chose the simplest and it turns out it has a great foundation for the MVP of my project, allowing me time to focus on the more challenging functionality. I will take a break and come back to study the Reanimation library and look into finding a tutorial to speed up the process.
 
+    * Stopped work after class. I should have continued but I was feeling discouraged and I had a lot of packing to do before my flight on Sunday. So, I decided to adjust my schedule and focus on something else for a while.
+
 * __Friday Oct-28-2022:__
 
     * finish default format
     * test default game for bugs and edge cases
     * create the new game form
+
+    __notes:__
+
+    * Two nights in a row of little accomplishment has left me a little behind but hopefully rested. There is finally a functional timer on screen. It does run in the background, though the animation is terrible. But, it is the first bit of functional code to be added to our template and the biggest step towards the actual functionality of a poker clock. This puts me back on schedule, but it doesn't lend much hope to completing today's forecasted sprint.
 
 * __Saturday Oct-29-2022:__
 
@@ -78,6 +91,8 @@ When a player has logged in and provided valid invite information they are direc
     * connect the new form/home page to the Tourney page
 
 * __Sunday Oct-30-2022:__
+
+    * 8:30 am mst Flight to Cabo San Lucas, Mexico.
 
     * styling
     * plan and practice presentation
@@ -123,6 +138,8 @@ When a player has logged in and provided valid invite information they are direc
 * Add player accounts.
     * Allow players to sign in with an invite code to view the game details on their own phones.
 
+* Convert code to standard React and allow users to display tourney on desktop/laptop.
+
 ## Pages
 
 * Home page: where the user selects Player or Host.
@@ -163,7 +180,9 @@ When a player has logged in and provided valid invite information they are direc
 
 ## Approach taken
 
-ADD APPROACH TAKEN
+This was a learning exercise designed to prepare me to build the project I really wanted to build. Knowing that this was going to be a big task I opted to keep my expectations reasonable, and learn the technology as the project developes. 
+
+Step one is to gain a working knowledge first. I began by reading through the documentation. Then by following free tutorials I found online. I quickly learned that it the world of react native, things change very quickly. Any library that was used was potentially deprecated and could require a lot of time to debug.
 
 ## Post project reflection
 
